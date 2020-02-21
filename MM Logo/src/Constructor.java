@@ -16,7 +16,7 @@ public class Constructor {
 		int u = N + (HalfOfN-1)*2;
 		
 		
-		if(N%2 == 0 || N<2 || N>1000) {
+		if(N%2 == 0 || N<2 || N>10000) {
 			System.out.print("Wrong Values");
 		}
 		else {
